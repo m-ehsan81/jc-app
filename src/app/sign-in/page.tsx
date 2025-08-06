@@ -6,7 +6,7 @@ const SignIn: React.FC = () => {
       <div>
         <p className="text-[2rem] text-center">Sign In</p>
 
-        <div className="flex flex-col gap-6 mt-[5.125rem]">
+        <div className="flex flex-col gap-2 mt-[5.125rem]">
           <CustomInput
             label="User Name"
             isError={true}

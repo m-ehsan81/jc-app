@@ -1,8 +1,10 @@
+"use client";
+import CustomButton from "@/components/custom-button";
 import CustomInput from "@/components/custom-input";
 
 const SignIn: React.FC = () => {
   return (
-    <div className="px-6 py-10 flex justify-between flex-col">
+    <div className="px-6 py-10 flex justify-between flex-col h-screen">
       <div>
         <p className="text-[2rem] text-center">Sign In</p>
 
@@ -17,7 +19,14 @@ const SignIn: React.FC = () => {
         </div>
       </div>
 
-      <div></div>
+      <div className="flex flex-col gap-4">
+        <CustomButton onClick={() => console.log("first")}>
+          Sign In
+        </CustomButton>
+        <CustomButton onClick={() => console.log("first")}>
+          Sign Up
+        </CustomButton>
+      </div>
     </div>
   );
 };

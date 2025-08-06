@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@utility custom-input-error {
+  border-color: #e11f0e;
+}
+
 :root {
   --background: #1c274c;
   --foreground: #ffffff;

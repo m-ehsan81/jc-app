@@ -4,4 +4,5 @@ export interface CustomInputProps
   extends InputHTMLAttributes<HTMLInputElement> {
   label: string;
   isError?: boolean;
+  helperText?: string;
 }

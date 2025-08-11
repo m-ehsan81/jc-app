@@ -1,6 +1,7 @@
 "use client";
 import CustomButton from "@/components/custom-button";
 import CustomInput from "@/components/custom-input";
+import CupSVG from "@/svgs/cup";
 
 const SignIn: React.FC = () => {
   return (
@@ -20,10 +21,10 @@ const SignIn: React.FC = () => {
       </div>
 
       <div className="flex flex-col gap-4">
-        <CustomButton onClick={() => console.log("first")}>
+        <CustomButton onClick={() => console.log("first")} endIcon={<CupSVG />}>
           Sign In
         </CustomButton>
-        <CustomButton onClick={() => console.log("first")}>
+        <CustomButton onClick={() => console.log("first")} startIcon={<CupSVG />}>
           Sign Up
         </CustomButton>
       </div>

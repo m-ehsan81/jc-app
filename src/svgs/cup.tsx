@@ -1,6 +1,6 @@
 import React from "react";
 
-function CupSVG() {
+const CupSVG: React.FC = () => {
   return (
     <svg
       width="32"
@@ -43,6 +43,6 @@ function CupSVG() {
       />
     </svg>
   );
-}
+};
 
 export default CupSVG;

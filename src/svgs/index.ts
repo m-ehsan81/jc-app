@@ -2,3 +2,6 @@ export { default as MenuSVG } from "./menu";
 export { default as CupSVG } from "./cup";
 export { default as Avatar1SVG } from "./avatar1";
 export { default as UserSVG } from "./user";
+export { default as LeaderBoardSVG } from "./leader-board";
+export { default as ArrowLeftSVG } from "./arrow-left";
+export { default as MedalSVG } from "./medal";

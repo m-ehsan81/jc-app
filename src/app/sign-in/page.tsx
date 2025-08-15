@@ -1,6 +1,10 @@
 "use client";
 
-import { CustomButton, CustomInput } from "@/components/customs";
+import {
+  CustomButton,
+  CustomInput,
+  CustomPassInput,
+} from "@/components/customs";
 import { EyeSVG } from "@/svgs";
 import CupSVG from "@/svgs/cup";
 
@@ -18,13 +22,7 @@ const SignIn: React.FC = () => {
             startIcon={<EyeSVG />}
             id="1"
           />
-          <CustomInput
-            label="Password"
-            id="2"
-            endIcon={<EyeSVG />}
-            onIconClicked={() => alert("hi")}
-            clickableIcon
-          />
+          <CustomPassInput label="Password" id="2" />
         </div>
       </div>
 

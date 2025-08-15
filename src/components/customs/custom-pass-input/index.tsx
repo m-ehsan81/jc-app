@@ -1,3 +1,5 @@
+"use client";
+
 import { EyeSVG } from "@/svgs";
 import CustomInput from "../custom-input";
 import { CustomInputProps } from "../custom-input/type";

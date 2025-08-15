@@ -1,5 +1,5 @@
 "use client";
-import CustomButton from "@/components/custom-button";
+import { CustomButton } from "@/components/customs";
 import { CupSVG, UserSVG } from "@/svgs";
 
 const HomeBtnWrapper: React.FC = () => {

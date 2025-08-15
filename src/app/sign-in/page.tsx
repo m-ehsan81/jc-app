@@ -1,6 +1,6 @@
 "use client";
-import CustomButton from "@/components/custom-button";
-import CustomInput from "@/components/custom-input";
+
+import { CustomButton, CustomInput } from "@/components/customs";
 import CupSVG from "@/svgs/cup";
 
 const SignIn: React.FC = () => {
@@ -24,7 +24,10 @@ const SignIn: React.FC = () => {
         <CustomButton onClick={() => console.log("first")} endIcon={<CupSVG />}>
           Sign In
         </CustomButton>
-        <CustomButton onClick={() => console.log("first")} startIcon={<CupSVG />}>
+        <CustomButton
+          onClick={() => console.log("first")}
+          startIcon={<CupSVG />}
+        >
           Sign Up
         </CustomButton>
       </div>

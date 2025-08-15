@@ -9,3 +9,4 @@ export { default as UserEditSVG } from "./user-edit";
 export { default as ProfileCircleSVG } from "./profile-circle";
 export { default as LockCircleSVG } from "./lock-circle";
 export { default as ArrowCircleRightSVG } from "./arrow-circle-right";
+export { default as EyeSVG } from "./eye";

@@ -5,3 +5,7 @@ export { default as UserSVG } from "./user";
 export { default as LeaderBoardSVG } from "./leader-board";
 export { default as ArrowLeftSVG } from "./arrow-left";
 export { default as MedalSVG } from "./medal";
+export { default as UserEditSVG } from "./user-edit";
+export { default as ProfileCircleSVG } from "./profile-circle";
+export { default as LockCircleSVG } from "./lock-circle";
+export { default as ArrowCircleRightSVG } from "./arrow-circle-right";

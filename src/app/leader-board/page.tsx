@@ -1,3 +1,4 @@
+import BackButton from "@/components/back-button";
 import { RankOne, UserItem } from "@/components/leader-board";
 import { UserItemProps } from "@/components/leader-board/user-item/type";
 import { ArrowLeftSVG } from "@/svgs";
@@ -15,7 +16,7 @@ const DATA: UserItemProps[] = [
 const LeaderBoard: React.FC = () => {
   return (
     <div className="p-6">
-      <ArrowLeftSVG />
+      <BackButton />
 
       <RankOne />
 

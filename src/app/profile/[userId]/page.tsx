@@ -10,6 +10,8 @@ const UserProfile: React.FC<{
 }> = ({ params }) => {
   const { userId } = use(params);
 
+  console.log(userId)
+
   return (
     <div className="p-6">
       <BackButton title="Profile" />

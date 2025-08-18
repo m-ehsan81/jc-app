@@ -1,7 +1,6 @@
 import BackButton from "@/components/back-button";
 import { RankOne, UserItem } from "@/components/leader-board";
 import { UserItemProps } from "@/components/leader-board/user-item/type";
-import { ArrowLeftSVG } from "@/svgs";
 
 const DATA: UserItemProps[] = [
   { username: "Shayan Sharifi", count: 50, rank: 2 },

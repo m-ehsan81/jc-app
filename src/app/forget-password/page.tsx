@@ -7,7 +7,7 @@ const ForgetPassword = () => {
       <BackButton title="Forget Password" />
 
       <p className="mt-[4.875rem] mb-10 text-[1.25rem]">
-        Enter the email and we'll send an email with instructions to reset your
+        Enter the email and well send an email with instructions to reset your
         password.
       </p>
 

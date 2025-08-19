@@ -1,6 +1,6 @@
 import duckdb from "duckdb";
 
-const db = new duckdb.Database("counter.db");
+const db = new duckdb.Database("jcounter.db");
 
 // Initialize tables if not exist
 db.run(`
